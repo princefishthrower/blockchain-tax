@@ -14,7 +14,7 @@
     "serve": "^6.4.8"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts build && serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
